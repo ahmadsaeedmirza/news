@@ -1,7 +1,6 @@
 import "./Styling/fashion.css";
 import { useContext, useEffect } from "react";
 import newsContext from "./Context/alldata";
-import Article from "./article";
 
 function Technology () {
     const { technologyData } = useContext(newsContext);
