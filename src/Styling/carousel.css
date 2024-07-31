@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+}
+  
+.pic {
+    width: 100%;
+    height: auto; 
+}
+
+.tasweer:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.pic:hover .tasweer {
+    transform: scale(1.2);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.pic-content:hover {
+    cursor: pointer;
+}
+  
+.tasweer {
+    width: 100%;
+    height: auto; 
+    position: relative;
+    z-index: 1;
+    object-fit: cover; 
+    transition: transform 0.5s ease-in-out;
+}
+  
+.pic-content {
+    position: absolute;
+    z-index: 5;
+    top: 50px;
+    width: 100%;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.pic-content h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.5),  
+    1px -1px 0 rgba(0, 0, 0, 0.5),    
+    -1px 1px 0 rgba(0, 0, 0, 0.5),    
+    1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pic-content button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: transparent;
+    color: #fff;
+}
+
+.pic-content button:hover {
+    cursor: pointer;
+}
+
+.business {
+    background-color: #2C2891;
+}
+
+.food {
+    background-color: #FCC72C;
+}
+
+.technology {
+    background-color: #96C9F4;
+}
+
+.environment {
+    background-color: #74E291;
+}
+
+.fashion {
+    background-color: #55829C;
+}
+
+.lifestyle {
+    background-color: #CD8D7B;
+}
+
+.sports {
+    background-color: #0E49B5;
+}
+  
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px; 
+}
+  
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+.carousel-item {
+    flex: 0 0 33.3333%; 
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    position: relative; 
+    overflow: hidden; 
+}
+  
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    height: 100%;
+}
+  
+.carousel-button.left {
+    left: 0;
+}
+  
+.carousel-button.right {
+    right: 0;
+}
+
+.carousel-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}

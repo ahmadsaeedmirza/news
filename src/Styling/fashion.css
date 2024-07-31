@@ -1,0 +1,96 @@
+
+.newsbox {
+    width: 48%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.heading {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.heading h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.news-content {
+    margin: 1rem 5%;
+    text-align: center;
+}
+
+.description {
+    text-align: justify;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 80px;
+    overflow: hidden;
+}
+
+.description, h4, h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 3.6rem; /* Adjust based on your line-height */
+    line-height: 1.5rem; /* Adjust to match your line-height */
+}
+
+.main-news-picture {
+    width: 100%;
+    height: 270px;
+}
+
+.main-news-picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.other-news {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 70px;
+    overflow: hidden;
+}
+
+.other-news-picture {
+    width: 30%;
+}
+
+.other-news h4 {
+    width: 70%;
+    margin: 10px 5px;
+}
+
+.technology-heading {
+    border-top: 2px solid #433D8B;
+}
+
+.sports-heading {
+    border-top: 2px solid #06D001;
+}
+
+.business-heading {
+    border-top: 2px solid #2C2891;
+}
+
+.fashion-heading {
+    border-top: 2px solid #FE828C;
+}
+
+.main-news-title {
+    height: 2.5rem;
+}
+
+.main-news {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} 

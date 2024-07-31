@@ -1,0 +1,129 @@
+
+.catagories {
+    width: 80%;
+    height: fit-content;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 3rem;
+    margin-left: 5rem;
+    position: sticky;
+    z-index: 1000;
+    top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.heading {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.single-catagory p:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.single-catagory p {
+    margin: 0;
+    padding-left: 30px;
+    position: relative;
+    z-index: 0;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.single-catagory p::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleX(0);
+}
+
+.environment-catagory::before {
+    background: #E0B0FF;
+}
+
+.environment-catagory {
+    border-left: 5px solid #E0B0FF;
+}
+
+.fashion-catagory::before {
+    background: #FE828C;
+}
+
+.fashion-catagory {
+    border-left: 5px solid #FE828C;
+}
+
+.technology-catagory::before {
+    background: #433D8B;
+}
+
+.technology-catagory {
+    border-left: 5px solid #433D8B;
+}
+
+.sports-catagory::before {
+    background: #06D001;
+}
+
+.sports-catagory {
+    border-left: 5px solid #06D001;
+}
+
+.music-catagory::before {
+    background: #799351;
+}
+
+.music-catagory {
+    border-left: 5px solid #799351;
+}
+
+.business-catagory::before {
+    background: #2C2891;
+}
+
+.business-catagory {
+    border-left: 5px solid #2C2891;
+}
+
+.entertainment-catagory::before {
+    background: #D95F59;
+}
+
+.entertainment-catagory {
+    border-left: 5px solid #D95F59;
+}
+
+.food-catagory::before {
+    background: #FCC72C;
+}
+
+.food-catagory {
+    border-left: 5px solid #FCC72C;
+}
+
+.lifestyle-catagory::before {
+    background: #CD8D7B;
+}
+
+.lifestyle-catagory {
+    border-left: 5px solid #CD8D7B;
+}
+
+.single-catagory p:hover::before {
+    transform: scaleX(1);
+}
+
